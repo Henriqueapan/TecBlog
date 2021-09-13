@@ -1,0 +1,282 @@
+/*Importa fonte Montserrat (não utilizada)*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
+    background-color: #e6e6e6;
+}
+
+/*Formatação do cabeçalho todo*/
+
+#area_cabecalho {
+    background-color: orangered;
+    padding: 0.9375em;
+    text-align: center;
+    width: inherit;
+}
+
+/*Formatação do logo*/
+
+#area_logo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0.625em;
+}
+
+#tecblog1:any-link, #tecblog2:any-link {
+    font: inherit;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #4e4e4e; 
+}
+
+/*Formatação do menu de cabeçalho*/
+
+#area_menu {
+    padding: 0.625em;
+}
+
+.menu:any-link {
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+    padding: 0.5em;
+    border-radius: 0.46875em;
+    font-weight: bold;
+}
+
+.menu:hover {
+    color: orangered;
+    background-color: white;
+}
+
+/*Início da formatação da área principal (main)*/
+
+#area_main {
+    width: 57.5em;
+    margin: 0.65em auto;
+}
+
+/*Formatação da área de conteúdos*/ 
+
+#area_conteudos {
+    width: 41.25em;
+    float: left;
+}
+
+/*Formatação da área lateral*/ 
+
+#area_lateral {
+    width: 15em;
+    float: right;
+}
+
+/*Formatação das postagens individuais*/ 
+
+.postagem {
+    padding: 1.25em;
+    margin-bottom: 1.25em;
+    background-color: white;
+}
+
+.postagem > h2 {
+    color: orangered;
+}
+
+.postagem > img {
+    max-width: 38.75em;
+    margin: 0.625em 0;
+}
+
+.postagem > p {
+    margin-bottom: 0.625em;
+}
+
+.data_postagem {
+    font-size: 0.8em;
+    border-bottom: 0.0625em solid #f4f4f4;
+    padding-bottom: 0.625em;
+    display: block;
+}
+
+/*Formatação do conteúdo da área lateral*/
+
+.conteudo_lateral {
+    padding: 0.625em;
+    background-color: white;
+    margin-bottom: 1.25em;
+}
+
+.conteudo_lateral > a {
+    font-size: 0.8em;
+}
+
+.texto_lateral {
+    padding: 0.3125em;
+    font-size: 0.8em;
+    border-bottom: 0.0625em solid rgba(204, 204, 204, 0.719);
+}
+
+.texto_lateral:last-of-type {
+    border-bottom: none;
+}
+
+/*Formatação dos links para redes sociais*/
+
+#redes_sociais {
+    margin-top: 0.7em;
+}
+
+.rede {
+    margin-bottom: 1em;
+}
+
+.fa {
+    width: 1.35em;
+}
+
+.fa:any-link {
+    color: orangered;
+    text-decoration: none;
+    background: #e6e6e6;
+    padding: 0.35em 0.2em 0.35em 0.2em;
+    border-radius: 10em;
+    font-size: 1.7em;
+    text-align: center;
+    margin-right: 0.4em;
+}
+
+.fa-linkedin:any-link {
+    /*O ícone do LinkedIn tem dimensões diferentes e precisou ser formatado individualmente*/
+    padding: 0.35em 0.2em 0.42em 0.25em;
+
+}
+
+.fa-facebook:any-link {
+    /*O ícone do Facebook tem dimensões diferentes e precisou ser formatado individualmente*/
+    padding: 0.35em 0.2em 0.25em 0.2em;
+
+}
+
+.fa:hover {
+    color: white;
+    background-color: orangered;
+}
+
+/*Formatação do menu lateral*/
+
+.item_lateral a:any-link {
+    text-decoration: none;
+    color: orangered;
+    display: block;
+    border-radius: 0.46875em;
+    line-height: 2.5em;
+    text-align: center;
+    background-color: #e6e6e6;
+    margin: 0.8em auto;
+    font-weight: bold;
+}
+
+.item_lateral a:hover {
+    color: white;
+    background-color: orangered;
+}
+
+.item_lateral a:active {
+    color: white;
+    background-color: rgba(255, 68, 0, 0.692);
+}
+
+/*Formatações gerais*/
+
+.white {
+    color: whitesmoke;
+}
+
+.clear {
+    /*Serve para limpar o fluxo flutuante e também como rodapé*/
+    clear: both;
+    text-align: center;
+    padding: 1em;
+    margin: 0.5em 0;
+    font-style: italic;
+    
+}
+
+.leia_mais:any-link {
+    color: orangered;
+    text-decoration: none;
+}
+
+.leia_mais:hover {
+    text-decoration: underline;
+}
+
+h3 {
+    text-align: left;
+    padding: 0.3125em;
+    color: #565656;
+    background-color: #CCC;
+}
+
+/*Marcação de página atual*/
+
+#home #menu_lateral .home:any-link {
+    color: white;
+    background-color: orangered;
+}
+
+#home #menu_lateral .home:active {
+    color: white;
+    background-color: rgba(255, 68, 0, 0.692);
+}
+
+#jogos #menu_lateral .jogos:any-link {
+    color: white;
+    background-color: orangered;
+}
+
+#jogos #menu_lateral .jogos:active {
+    color: white;
+    background-color: rgba(255, 68, 0, 0.692);
+}
+
+#celulares #menu_lateral .celulares:any-link {
+    color: white;
+    background-color: orangered;
+}
+
+#celulares #menu_lateral .celulares:active {
+    color: white;
+    background-color: rgba(255, 68, 0, 0.692);
+}
+
+#informatica #menu_lateral .informatica:any-link {
+    color: white;
+    background-color: orangered;
+}
+
+#informatica #menu_lateral .informatica:active {
+    color: white;
+    background-color: rgba(255, 68, 0, 0.692);
+}
+
+#eletronicos #menu_lateral .eletronicos:any-link {
+    color: white;
+    background-color: orangered;
+}
+
+#eletronicos #menu_lateral .eletronicos:active {
+    color: white;
+    background-color: rgba(255, 68, 0, 0.692);
+}
