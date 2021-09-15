@@ -1,5 +1,5 @@
 # TecBlog
-Projetos de home page para um site de notícias/blog de tecnologia.
+Projeto de home page para um site de notícias/blog de tecnologia.
 Desenvolvido no curso de Desenvolvimento Web do professor [Jamilton Damasceno](https://jamiltondamasceno.com.br/).
 
 # Acesso
